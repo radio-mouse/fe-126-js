@@ -1,0 +1,33 @@
+{
+  "name": "frontend",
+  "version": "1.1.0",
+  "description": "Frontend development bundle based on Parcel",
+  "main": "src/js/app.js",
+  "scripts": {
+    "lint": "npx eslint src/js/**",
+    "dev": "parcel src/scss/main.scss src/js/app.js",
+    "build": "parcel build src/scss/main.scss src/js/app.js",
+    "start": "run-s lint dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radio-mouse/frontend.git"
+  },
+  "author": "RadioMouse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radio-mouse/frontend/issues"
+  },
+  "homepage": "https://github.com/radio-mouse/frontend#readme",
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.32.6"
+  }
+}
