@@ -1,7 +1,3 @@
-import events from './events';
-import init from './init';
+import sayHi from './module';
 
-document.addEventListener('DOMContentLoaded', () => {
-  init();
-  events();
-});
+sayHi();
