@@ -11,7 +11,12 @@ Bundle for frontend development based on Parcel
 npm install
 ```
 
-Run 'start' for lint and then development
+Run 'run lint' for lint and then development
+```
+npm run lint
+```
+
+Run npm start for dev
 ```
 npm start
 ```
