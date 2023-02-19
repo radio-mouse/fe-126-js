@@ -21,7 +21,7 @@ Run npm start for dev
 npm start
 ```
 
-Run 'build' for production
+Run 'prod' for production
 ```
-npm run build
+npm run prod
 ```
