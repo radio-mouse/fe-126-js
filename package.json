@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/radio-mouse/frontend#readme",
   "dependencies": {
-    "init": "^0.1.2",
     "parcel": "^2.8.3"
   },
   "devDependencies": {
